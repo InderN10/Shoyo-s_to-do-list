@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html style="width: 100%; height: 100%;" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+
+</head>
+
+<body>
+    <div id="mainDIV">
+        <img class="background" src="photo/1301331-3840x2160-desktop-4k-haikyuu-wallpaper-photo.jpg" alt="">
+        <div id="headTEXT">
+            <h1>Shoyo's list</h1>
+        </div>
+        <div class="twoSECTION-container">
+            <div class="twoSECTION">
+                <div class="textANDcounter">
+                    <div style="font-size: 25px; width: 60px;">To do</div>
+                    <div class="taskCOUNTER">0</div>
+                </div>
+                <div class="buttonSTYLE">
+                    <button class="button">
+                        <div style="font-size: 30px;">+</div>
+                        <div style="margin-left: 15px; font-size: 20px;">Add card</div>
+                    </button>
+                </div>
+
+            </div>
+            <div class="twoSECTION">
+                <div class="textANDcounter">
+                    <div style="font-size: 25px;">In progress</div>
+                    <div class="taskCOUNTER">0</div>
+                </div>
+                <div class="buttonSTYLE">
+                    <button class="button">
+                        <div style="font-size: 30px;">+</div>
+                        <div style="margin-left: 15px; font-size: 20px;">Add card</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="two2SECTION-container">
+            <div class="twoSECTION">
+                <div class="textANDcounter">
+                    <div style="font-size: 25px; width: 60px;">Stuck</div>
+                    <div class="taskCOUNTER">0</div>
+                </div>
+                <div class="buttonSTYLE">
+                    <button class="button">
+                        <div style="font-size: 30px;">+</div>
+                        <div style="margin-left: 15px; font-size: 20px;">Add card</div>
+                    </button>
+                </div>
+
+            </div>
+            <div class="twoSECTION">
+                <div class="textANDcounter">
+                    <div style="font-size: 25px;">Done</div>
+                    <div class="taskCOUNTER">0</div>
+                </div>
+                <div class="buttonSTYLE">
+                    <button class="button">
+                        <div style="font-size: 30px;">+</div>
+                        <div style="margin-left: 15px; font-size: 20px;">Add card</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="taskCONTAINER">
+            <div id="task">
+                <h1 style="margin: 0;">Add task</h1>
+                <div class="addTASKtitle">
+                    <div>Title</div>
+                    <input class="TitleNAME" type="text">
+                </div>
+                <div class="addTASKtitle">
+                    <div>Description</div>
+                    <input class="Description" type="text">
+                </div>
+                <div class="listSTYLE">
+                    <label for="select">Status</label>
+                    <select id="exampleList">
+                        <option value="To do">to do</option>
+                        <option value="In progress">in progress</option>
+                        <option value="Stuck">stuck</option>
+                        <option value="Done">done</option>
+                    </select>
+                </div>
+                <div class="listSTYLE">
+                    <label for="select">Priority</label>                  
+                    <select id="exampleList">
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="low">low</option>
+                    </select>
+                </div>
+                <button id="addTASKbutton">Add task</button>
+            </div>
+        </div>
+
+</body>
+
+</html>

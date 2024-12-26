@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#mainDIV {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#headTEXT {
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-size: 35px;
+
+}
+
+.twoSECTION-container {
+    width: 300px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 190px;
+    top: 550px;
+}
+
+.twoSECTION {
+    width: 300px;
+    background-color: rgb(234, 200, 136);
+    border-radius: 15px;
+    padding: 8px;
+
+}
+
+.taskCOUNTER {
+    font-size: 20px;
+    width: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.textANDcounter {
+    display: flex;
+    margin-left: 10px;
+}
+
+.buttonSTYLE {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* background-color: rgb(234, 200, 136);
+    border: 0; */
+}
+
+.two2SECTION-container {
+    width: 300px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 190px;
+    top: 550px;
+}
+
+#task {
+    width: 400px;
+    gap: 30px;
+    background-color: aqua;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#taskCONTAINER {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.addTASKtitle {}
+
+.TitleNAME {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.Description {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.Status {
+    width: 100%;
+}
+#addTASKbutton{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+#exampleList{
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+}
+.listSTYLE{
+    display: flex;
+    flex-direction: column;
+}
